@@ -31,7 +31,7 @@ def index():
     return render_template('index.html')
 
 @app.route("/form", methods=['POST'])
-def index():
+def form():
     return render_template('form.html')
 
 @app.route("/addren", methods=['POST'])
